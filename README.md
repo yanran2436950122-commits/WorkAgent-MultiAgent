@@ -58,7 +58,7 @@ start.bat
 如需手动启动，可执行：
 
 ```powershell
-cd C:\Users\wangyang\Desktop\WorkAgent-MultiAgent
+cd .\WorkAgent-MultiAgent
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
@@ -142,17 +142,6 @@ config/env.local.dpapi
 ├── requirements.txt           # Python 依赖
 └── .env.example               # 环境变量模板
 ```
-
-## GitHub 上传建议
-
-上传前确认以下文件不会进入仓库：
-
-- `.env`
-- `config/env.local.dpapi`
-- `.venv/`
-- `temp/`
-- `__pycache__/`
-- `.idea/`
 
 ## 后续扩展
 
