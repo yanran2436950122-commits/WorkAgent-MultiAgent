@@ -1,6 +1,7 @@
 # WorkAgent-MultiAgent
 
 基于 LangGraph 的多智能体职场任务处理助手，聚焦日常职场任务的分析、拆解、计划、沟通和风险复核。
+本项目参考自[JobAgent-MultiAgent](https://github.com/connwang7/JobAgent-MultiAgent)项目
 
 ## 功能流程
 
